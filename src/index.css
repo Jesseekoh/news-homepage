@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+	/* color-scheme: light dark; */
+
+	--soft-orange: hsl(35, 77%, 62%);
+	--soft-red: hsl(5, 85%, 63%);
+	/* Neutral */
+
+	--off-white: hsl(36, 100%, 99%);
+	--grayish-blue: hsl(233, 8%, 79%);
+	--dark-grayish-blue: hsl(236, 13%, 42%);
+	--very-dark-blue: hsl(240, 100%, 5%);
+
+
+
+
+}
+
+/* * {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	outline: none;
+} */
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+/* Colors */
+.bg-very-dark-blue {
+	background-color: var(--very-dark-blue);
+}
+
+.text-light {
+	color: var(--off-white)
+}
+
+.soft-orange {
+	color: var(--soft-orange);
+}
+
+
+
+.new-news-item {
+	padding-block: 20px;
+	border-bottom: 1px solid var(--grayish-blue);
+}
